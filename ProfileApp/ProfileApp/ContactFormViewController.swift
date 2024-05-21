@@ -15,6 +15,13 @@ class ContactFormViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buttn.layer.cornerRadius = 20  // ここで適切な角の半径を設定します
+        buttn.clipsToBounds = true
+        
+        // ビューにタップジェスチャーを追加
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -26,5 +33,8 @@ class ContactFormViewController: UIViewController {
                 
             }
         }
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 }

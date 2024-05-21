@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H1q-hz-mrl">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -72,7 +73,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54k-a9-CIN">
                                 <rect key="frame" x="75" y="619" width="243" height="45"/>
-                                <color key="backgroundColor" name="contact_button"/>
+                                <color key="backgroundColor" name="textcolor main"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ocE-vd-Meo"/>
                                 </constraints>
@@ -177,43 +178,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メールアドレス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkB-lO-b45">
-                                <rect key="frame" x="30" y="328" width="333" height="12"/>
+                                <rect key="frame" x="30" y="294" width="333" height="12"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="12"/>
                                 <color key="textColor" name="textcolor main"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ath-tj-hIr">
-                                <rect key="frame" x="30" y="253" width="333" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="pZ5-jm-jth"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tek-uE-1Ag">
-                                <rect key="frame" x="30" y="346" width="333" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="kjk-xF-brp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REv-m7-NZg">
-                                <rect key="frame" x="30" y="439" width="333" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="fXA-dH-PoR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お問い合わせ内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9u-kv-oAa">
-                                <rect key="frame" x="30" y="421" width="333" height="12"/>
+                                <rect key="frame" x="30" y="353" width="333" height="12"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="12"/>
                                 <color key="textColor" name="textcolor main"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXD-hU-maf">
-                                <rect key="frame" x="75" y="619" width="243" height="45"/>
+                                <rect key="frame" x="75" y="432" width="243" height="45"/>
                                 <color key="backgroundColor" name="textcolor main"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="In6-CA-7nM"/>
@@ -227,49 +204,68 @@
                                     <segue destination="408-YX-SXf" kind="show" identifier="US" id="3XH-zQ-x2a"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riX-Od-SyN">
+                                <rect key="frame" x="30" y="264" width="333" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                <color key="textColor" name="textcolor main"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOx-fK-wF1">
+                                <rect key="frame" x="30" y="323" width="333" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                <color key="textColor" name="textcolor main"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPf-F7-l7u">
+                                <rect key="frame" x="30" y="382" width="333" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                <color key="textColor" name="textcolor main"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HAF-Je-HJj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tek-uE-1Ag" firstAttribute="top" secondItem="hkB-lO-b45" secondAttribute="bottom" constant="6" id="1kr-sX-w0m"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="h9u-kv-oAa" secondAttribute="trailing" constant="30" id="3zp-Hx-JOt"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="OS9-eP-ZO8" secondAttribute="trailing" constant="30" id="8sC-0I-zfd"/>
-                            <constraint firstItem="bXD-hU-maf" firstAttribute="top" secondItem="REv-m7-NZg" secondAttribute="bottom" constant="30" id="933-sm-B0n"/>
                             <constraint firstItem="o8R-r3-JFU" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="9Td-NH-gqp"/>
-                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="ath-tj-hIr" secondAttribute="trailing" constant="30" id="BG2-7i-z7p"/>
-                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="tek-uE-1Ag" secondAttribute="trailing" constant="30" id="CBw-M5-IER"/>
-                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="REv-m7-NZg" secondAttribute="trailing" constant="30" id="CT9-zC-IMh"/>
-                            <constraint firstItem="hkB-lO-b45" firstAttribute="top" secondItem="ath-tj-hIr" secondAttribute="bottom" constant="30" id="Cnq-8p-5ev"/>
+                            <constraint firstItem="h9u-kv-oAa" firstAttribute="top" secondItem="TOx-fK-wF1" secondAttribute="bottom" constant="30" id="CyV-6l-gTJ"/>
                             <constraint firstItem="OS9-eP-ZO8" firstAttribute="top" secondItem="Sjv-MQ-ghC" secondAttribute="bottom" constant="3" id="Iej-C5-uVV"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="o8R-r3-JFU" secondAttribute="trailing" constant="30" id="J8x-mS-hKn"/>
                             <constraint firstItem="jHM-tS-0mS" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="K8y-Vh-Is0"/>
                             <constraint firstItem="Sjv-MQ-ghC" firstAttribute="top" secondItem="jHM-tS-0mS" secondAttribute="bottom" id="KZC-sY-XEv"/>
-                            <constraint firstItem="REv-m7-NZg" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="LNP-E4-I3Z"/>
-                            <constraint firstItem="tek-uE-1Ag" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="MNp-Bj-KhJ"/>
+                            <constraint firstItem="TOx-fK-wF1" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="Nm4-de-5zM"/>
+                            <constraint firstItem="riX-Od-SyN" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="PQZ-XY-7Hg"/>
                             <constraint firstItem="OS9-eP-ZO8" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="QYf-bc-dIP"/>
+                            <constraint firstItem="TOx-fK-wF1" firstAttribute="top" secondItem="hkB-lO-b45" secondAttribute="bottom" constant="17" id="RuN-7C-461"/>
+                            <constraint firstItem="riX-Od-SyN" firstAttribute="top" secondItem="o8R-r3-JFU" secondAttribute="bottom" constant="17" id="UOx-IN-DEy"/>
                             <constraint firstItem="hkB-lO-b45" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="Usk-ct-fos"/>
                             <constraint firstItem="Sjv-MQ-ghC" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="V0T-WR-CaI"/>
+                            <constraint firstItem="hkB-lO-b45" firstAttribute="top" secondItem="riX-Od-SyN" secondAttribute="bottom" constant="30" id="Vjh-aK-KKc"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="hkB-lO-b45" secondAttribute="trailing" constant="30" id="Xhh-zR-j6z"/>
-                            <constraint firstItem="h9u-kv-oAa" firstAttribute="top" secondItem="tek-uE-1Ag" secondAttribute="bottom" constant="30" id="ain-dN-S08"/>
-                            <constraint firstItem="ath-tj-hIr" firstAttribute="top" secondItem="o8R-r3-JFU" secondAttribute="bottom" constant="6" id="bgZ-h1-cNH"/>
+                            <constraint firstItem="iPf-F7-l7u" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="cGn-ma-JsN"/>
                             <constraint firstItem="o8R-r3-JFU" firstAttribute="top" secondItem="OS9-eP-ZO8" secondAttribute="bottom" constant="30" id="ctR-Na-ikV"/>
+                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="TOx-fK-wF1" secondAttribute="trailing" constant="30" id="dR3-y4-qAL"/>
                             <constraint firstItem="bXD-hU-maf" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="75" id="gfD-dR-byP"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="bXD-hU-maf" secondAttribute="trailing" constant="75" id="h1G-7E-aCi"/>
-                            <constraint firstItem="REv-m7-NZg" firstAttribute="top" secondItem="h9u-kv-oAa" secondAttribute="bottom" constant="6" id="iCj-ic-dBt"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="OS9-eP-ZO8" secondAttribute="trailing" constant="30" id="j4O-ib-utY"/>
                             <constraint firstItem="OS9-eP-ZO8" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="jVz-OR-2E4"/>
+                            <constraint firstItem="bXD-hU-maf" firstAttribute="top" secondItem="iPf-F7-l7u" secondAttribute="bottom" constant="50" id="kCE-sc-rkq"/>
+                            <constraint firstItem="iPf-F7-l7u" firstAttribute="top" secondItem="h9u-kv-oAa" secondAttribute="bottom" constant="17" id="mzs-1Z-HxJ"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="jHM-tS-0mS" secondAttribute="trailing" constant="30" id="rzL-Wg-A37"/>
                             <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="Sjv-MQ-ghC" secondAttribute="trailing" constant="30" id="tmD-XW-tnN"/>
                             <constraint firstItem="jHM-tS-0mS" firstAttribute="top" secondItem="HAF-Je-HJj" secondAttribute="top" constant="10" id="txm-A3-LKc"/>
                             <constraint firstItem="h9u-kv-oAa" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="uxy-FR-dvc"/>
-                            <constraint firstItem="ath-tj-hIr" firstAttribute="leading" secondItem="HAF-Je-HJj" secondAttribute="leading" constant="30" id="wqD-eu-hGz"/>
+                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="riX-Od-SyN" secondAttribute="trailing" constant="30" id="xJk-la-aLk"/>
+                            <constraint firstItem="HAF-Je-HJj" firstAttribute="trailing" secondItem="iPf-F7-l7u" secondAttribute="trailing" constant="30" id="z4O-6K-8zI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="heg-aV-pB9"/>
                     <connections>
-                        <outlet property="inquiryReceive" destination="REv-m7-NZg" id="xSI-kn-ncu"/>
-                        <outlet property="mailReceive" destination="tek-uE-1Ag" id="oYO-nF-laW"/>
-                        <outlet property="nameReceive" destination="ath-tj-hIr" id="tn7-BS-Mrg"/>
+                        <outlet property="confirmationButton" destination="bXD-hU-maf" id="Grf-G9-agw"/>
+                        <outlet property="inquiryReceive" destination="iPf-F7-l7u" id="hEA-BQ-hq3"/>
+                        <outlet property="mailReceive" destination="TOx-fK-wF1" id="M38-pv-Nek"/>
+                        <outlet property="nameReceive" destination="riX-Od-SyN" id="Ca0-vV-GWY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PkC-3l-0Pa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -328,6 +324,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9bJ-z6-ZN8"/>
+                    <connections>
+                        <outlet property="button" destination="aaG-nt-IZ2" id="Jn0-tp-itS"/>
+                        <outlet property="thankYouLabel" destination="kpn-p3-fvJ" id="Zbx-pD-mkO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcL-6O-gWv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -353,27 +353,27 @@
                                 <color key="textColor" name="textcolor main"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="旅行やグルメが好きです。 ディズニーランドかユニバーサルスタジオへ家族で行くようにしていて、北海道旅行にも毎年色々な場所へ行っています。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MI3-Li-ky1">
-                                <rect key="frame" x="30" y="153" width="333" height="88"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="旅行やグルメが好きです。 毎年ディズニーランドかユニバーサルスタジオへ家族で行くようにしていて、北海道の温泉巡りもしています。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MI3-Li-ky1">
+                                <rect key="frame" x="30" y="153" width="333" height="70"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" name="textcolor main"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hobby_mainphoto01" translatesAutoresizingMaskIntoConstraints="NO" id="7gY-7l-rjU">
-                                <rect key="frame" x="15" y="292" width="363" height="198"/>
+                                <rect key="frame" x="15" y="274" width="363" height="198"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7gY-7l-rjU" secondAttribute="height" multiplier="11:6" id="nWB-b6-nXQ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="旅行やグルメの写真" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEO-fK-nrx">
-                                <rect key="frame" x="30" y="271" width="333" height="15"/>
+                                <rect key="frame" x="30" y="253" width="333" height="15"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
                                 <color key="textColor" name="textcolor main"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="93j-gX-74q">
-                                <rect key="frame" x="30" y="558" width="333" height="106"/>
+                                <rect key="frame" x="30" y="540" width="333" height="106"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">旅行が好きで、各地の文化やグルメを楽しんでいます。函館では市場でイカ釣りを体験し、今年は娘と一緒に東京のハリーポッターツアーへ行って、舞台を観賞した後にふぐ料理を堪能しました。旅行を通じてその地域ならではの美味しい食べ物を味わうことが、私にとって旅の醍醐味です。</string>
                                 <color key="textColor" name="textcolor main"/>
@@ -381,20 +381,20 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hobby_subphoto01" translatesAutoresizingMaskIntoConstraints="NO" id="Whu-Sj-bCP">
-                                <rect key="frame" x="30" y="674" width="157.33333333333334" height="88.333333333333371"/>
+                                <rect key="frame" x="30" y="656" width="157.33333333333334" height="88.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Whu-Sj-bCP" secondAttribute="height" multiplier="16:9" id="obL-DI-M7e"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="コロナ禍の時は車中泊をしながらフェリーに乗り、仙台まで犬も一緒に遠征しました。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FQR-IQ-gVc">
-                                <rect key="frame" x="217.33333333333337" y="674" width="145.66666666666663" height="88"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="コロナ禍の時は車中泊をしながらフェリーに乗り、仙台まで犬と一緒に遠征しました。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FQR-IQ-gVc">
+                                <rect key="frame" x="217.33333333333337" y="656" width="145.66666666666663" height="88"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" name="textcolor main"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsa-cD-o7R">
-                                <rect key="frame" x="95.666666666666686" y="502" width="103" height="44"/>
+                                <rect key="frame" x="95.666666666666686" y="484" width="103" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="hobby_prev"/>
                                 <connections>
@@ -402,7 +402,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvY-pF-pSn">
-                                <rect key="frame" x="194.66666666666666" y="502" width="102.99999999999997" height="44"/>
+                                <rect key="frame" x="194.66666666666666" y="484" width="102.99999999999997" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="hobby_next"/>
                                 <connections>
@@ -544,7 +544,7 @@
                                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_subphoto" translatesAutoresizingMaskIntoConstraints="NO" id="2nl-hK-WrZ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_subphoto3" translatesAutoresizingMaskIntoConstraints="NO" id="2nl-hK-WrZ">
                                                 <rect key="frame" x="30" y="633" width="157.33333333333334" height="157.33333333333337"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="2nl-hK-WrZ" secondAttribute="height" multiplier="1:1" id="Hk5-H3-Ctm"/>
@@ -559,11 +559,10 @@
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3HC-JE-tAi">
-                                                <rect key="frame" x="30" y="802.33333333333337" width="333" height="124"/>
+                                                <rect key="frame" x="30" y="802.33333333333337" width="333" height="106"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">トイプードルと一緒に暮らしており、休日には一緒に旅行したり、美味しい食べ物を探して食べ歩きを楽しんでいます。
-ペットフレンドリーな宿泊施設行ったり、愛犬と一緒に過ごせる場所を探しています。
-地元の名物や人気のレストランを巡りながら、美味しい食事を楽しむのが私の楽しみです。</string>
+                                                <string key="text">最近は画像生成AIや、音楽生成Aiを使って動画を作ったり、旅行やレストランの動画を撮ってSNSでの発信にも力を入れています。
+今後はワーケーションをしながら国内外へ地域の魅力を発信していきたいなと思っています。</string>
                                                 <color key="textColor" name="textcolor main"/>
                                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -633,15 +632,12 @@
         <image name="hobby_mainphoto01" width="330" height="180"/>
         <image name="hobby_next" width="100.33333587646484" height="30"/>
         <image name="hobby_prev" width="100.33333587646484" height="30"/>
-        <image name="hobby_subphoto01" width="250" height="250"/>
+        <image name="hobby_subphoto01" width="338" height="250"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="profile_mainphoto" width="196" height="196"/>
-        <image name="profile_subphoto" width="240" height="240"/>
-        <image name="profile_subphoto2" width="291" height="291"/>
+        <image name="profile_subphoto2" width="187" height="187"/>
+        <image name="profile_subphoto3" width="291" height="291"/>
         <image name="sparkles" catalog="system" width="115" height="128"/>
-        <namedColor name="contact_button">
-            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="textcolor caption">
             <color red="0.56470588235294117" green="0.56470588235294117" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

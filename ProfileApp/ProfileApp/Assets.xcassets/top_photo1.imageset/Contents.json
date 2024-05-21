@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Rectangle 2hobby_mainphoto03.png",
+      "filename" : "image 1top_photo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Rectangle 2hobby_mainphoto03@2x.png",
+      "filename" : "image 1top_photo@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Rectangle 2hobby_mainphoto03@3x.png",
+      "filename" : "image 1top_photo@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
