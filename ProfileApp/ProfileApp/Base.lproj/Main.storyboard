@@ -142,6 +142,41 @@
             </objects>
             <point key="canvasLocation" x="-989" y="553"/>
         </scene>
+        <!--作品-->
+        <scene sceneID="Slh-oF-2UJ">
+            <objects>
+                <viewController id="hgu-ad-mbH" customClass="WebViewController" customModule="ProfileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q1Y-Ug-27z">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCL-1k-bpc">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OgY-h7-Z6R"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OgY-h7-Z6R" firstAttribute="trailing" secondItem="pCL-1k-bpc" secondAttribute="trailing" id="3L9-cC-TMI"/>
+                            <constraint firstItem="pCL-1k-bpc" firstAttribute="top" secondItem="OgY-h7-Z6R" secondAttribute="top" id="XCA-AS-Ttk"/>
+                            <constraint firstItem="OgY-h7-Z6R" firstAttribute="bottom" secondItem="pCL-1k-bpc" secondAttribute="bottom" id="aQI-03-8qX"/>
+                            <constraint firstItem="pCL-1k-bpc" firstAttribute="leading" secondItem="OgY-h7-Z6R" secondAttribute="leading" id="tb3-qO-XzR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="作品" image="brain.head.profile" catalog="system" id="poS-hg-wf5"/>
+                    <connections>
+                        <outlet property="webView" destination="pCL-1k-bpc" id="4QN-2s-IB2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJP-Cz-a4f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1741" y="553"/>
+        </scene>
         <!--Contact Confirmation View Controller-->
         <scene sceneID="bW2-R1-L8G">
             <objects>
@@ -454,7 +489,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rl2-jP-E4T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1741.2213740458014" y="552.11267605633805"/>
+            <point key="canvasLocation" x="-2622" y="551"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r3W-SW-U8i">
@@ -492,6 +527,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="waI-yP-wQy"/>
                         <segue destination="Ybj-FT-cPo" kind="relationship" relationship="viewControllers" id="8Jd-aE-YzC"/>
                         <segue destination="18u-Ne-zva" kind="relationship" relationship="viewControllers" id="1Mt-4T-f3I"/>
+                        <segue destination="hgu-ad-mbH" kind="relationship" relationship="viewControllers" id="6bg-g0-XhL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pAE-Vu-bMT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -624,10 +660,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2515.2671755725191" y="552.11267605633805"/>
+            <point key="canvasLocation" x="-3546" y="552"/>
         </scene>
     </scenes>
     <resources>
+        <image name="brain.head.profile" catalog="system" width="120" height="128"/>
         <image name="envelope" catalog="system" width="128" height="93"/>
         <image name="hobby_mainphoto01" width="330" height="180"/>
         <image name="hobby_next" width="100.33333587646484" height="30"/>

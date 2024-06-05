@@ -10,6 +10,7 @@
 		8B0CAADE2BFB2199008EC73B /* ContactFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CAADD2BFB2199008EC73B /* ContactFormViewController.swift */; };
 		8B0CAAE02BFB224A008EC73B /* ContactConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CAADF2BFB224A008EC73B /* ContactConfirmationViewController.swift */; };
 		8B0CAAE22BFB227B008EC73B /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CAAE12BFB227B008EC73B /* ThankYouViewController.swift */; };
+		8B0F5B402C1000F000104FC9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F5B3F2C1000F000104FC9 /* WebViewController.swift */; };
 		8B2CD5182BF7360100431960 /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CD5172BF7360100431960 /* HobbyViewController.swift */; };
 		8B4F86462BF59905002B048A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F86452BF59905002B048A /* AppDelegate.swift */; };
 		8B4F86482BF59905002B048A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F86472BF59905002B048A /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 		8B0CAADD2BFB2199008EC73B /* ContactFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormViewController.swift; sourceTree = "<group>"; };
 		8B0CAADF2BFB224A008EC73B /* ContactConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactConfirmationViewController.swift; sourceTree = "<group>"; };
 		8B0CAAE12BFB227B008EC73B /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		8B0F5B3F2C1000F000104FC9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8B2CD5172BF7360100431960 /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
 		8B4F86422BF59905002B048A /* ProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4F86452BF59905002B048A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				8B0CAADD2BFB2199008EC73B /* ContactFormViewController.swift */,
 				8B0CAADF2BFB224A008EC73B /* ContactConfirmationViewController.swift */,
 				8B0CAAE12BFB227B008EC73B /* ThankYouViewController.swift */,
+				8B0F5B3F2C1000F000104FC9 /* WebViewController.swift */,
 				8B4F864B2BF59905002B048A /* Main.storyboard */,
 				8B4F86502BF59906002B048A /* LaunchScreen.storyboard */,
 				8B4F864E2BF59906002B048A /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 				8B0CAADE2BFB2199008EC73B /* ContactFormViewController.swift in Sources */,
 				8B0CAAE02BFB224A008EC73B /* ContactConfirmationViewController.swift in Sources */,
 				8B2CD5182BF7360100431960 /* HobbyViewController.swift in Sources */,
+				8B0F5B402C1000F000104FC9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
